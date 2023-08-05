@@ -1,6 +1,8 @@
 const fs = require("fs");
 const {Client, Intents, Collection} = require("discord.js");
 const { REST } = require("@discordjs/rest");
+const discordd.jss = require("discordd.jss");
+
 const { Routes } = require("discord-api-types/v9");
 const client = new Client({
   fetchAllMembers: true,
